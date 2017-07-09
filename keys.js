@@ -1,4 +1,4 @@
-console.log('this is loaded');
+console.log('Lock and Load');
 
 module.exports.twitterKeys = {
   consumer_key: 'ATYTOwj2VHF2CIRsGjjJDNJE3',
@@ -7,18 +7,22 @@ module.exports.twitterKeys = {
   access_token_secret: '5QVUNc7p2eSGFMRvuqt7h1q2MEPhSFozaGm4atmydwfuZ',
 }
 
+
+
+
 exports.spotifyKeys = {
-	fuckit: 'nah'
+	id:      '78c74a7f44804ae3ab57afdbe5728c5a',
+ 	secret: '2d0d8a5e9f16470288c5cea45871311b'
 }
+
+
+exports.omdbKey = '40e9cece'
+
+
+
+
+
+
 
 // @todo Why module.exports vs exports?
 
-
-// Client ID
-
-// 78c74a7f44804ae3ab57afdbe5728c5a
-// Client Secret
-
-// 2d0d8a5e9f16470288c5cea45871311b
-
-// Be sure to use an OMDB API Key with your request. You may use 40e9cece
